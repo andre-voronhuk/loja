@@ -2,7 +2,14 @@
   position: relative;
   overflow: auto;
   height: 280px;
-  margin-left:8%;
+  padding: 0;
+  margin: 0;
+  margin-left: 11%;
+}
+#navbarVertical{
+  margin: 0;
+  padding: 0;
+
 }
 
 /*# sourceMappingURL=style.css.map */
