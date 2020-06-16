@@ -1,1 +1,1 @@
-# loja
+# andre-voronhuk.github.io/loja/
