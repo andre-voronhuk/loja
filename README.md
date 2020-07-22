@@ -1,1 +1,1 @@
-# https:\\andre-voronhuk.github.io/loja/
+https:\\andre-voronhuk.github.io/loja/
