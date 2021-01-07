@@ -61,7 +61,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -72,6 +72,7 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+  
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -3021,7 +3022,7 @@ input[type=button].btn-block {
   display: none;
   float: left;
   min-width: 10rem;
-  padding: 0.5rem 0;
+  padding: 0.2rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
   color: #212529;
@@ -5948,13 +5949,14 @@ a.close.disabled {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 16%;
+  height: 16%;
   background: no-repeat 50%/100% 100%;
 }
 
 .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e");
+  background-image:  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e");
+  
 }
 
 .carousel-control-next-icon {
@@ -5983,10 +5985,11 @@ a.close.disabled {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: rgb(251, 11, 11);
   background-clip: padding-box;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
+  box-shadow:1px;
   opacity: 0.5;
   transition: opacity 0.6s ease;
 }
@@ -10027,6 +10030,7 @@ padding: 0.5rem 1rem;
   text-decoration: none;
   color: #f888c0;
 }
+
 .nav-link-pink.disabled {
   color: #cacaca;
   pointer-events: none;
@@ -10065,13 +10069,13 @@ padding: 0.5rem 1rem;
   display: inline-block;
   text-align: center;
   overflow: hidden;
-  transition:  0.3s linear 0.1s;
+  transition:  0.31s linear ;
   
   
 }
 
 .icon-cloth:hover{
-  transition:  0.3s linear 0.1s;
+  transition:  0.4s linear ;
   border-radius: 15px;
   border-width: 2px;
   box-shadow: 3px 3px 2px 2px rgb(189, 189, 189);
@@ -10079,7 +10083,7 @@ padding: 0.5rem 1rem;
 }
 
 .icon-cloth:hover .icon-cloth-desc{
-  transition:  1s linear 0.1s;
+  
   overflow: visible;
   white-space: normal;
   
@@ -10097,11 +10101,11 @@ padding: 0.5rem 1rem;
   text-align: center;
   align-content: center;
   overflow: hidden;
-  transition:  0.3s linear 0.1s;
+  
 }
 
 .icon-cloth-more:hover {
-  transition:  0.3s linear 0.1s;
+  
   border-radius: 15px;
   border-width: 2px;
   box-shadow: 3px 3px 2px 2px rgb(189, 189, 189);
@@ -10113,7 +10117,7 @@ padding: 0.5rem 1rem;
 
 /* ATENÇÃO! icon cloth DESC seria o TITULO  do 'anuncio' */
 .icon-cloth-desc{
-  transition:  0.3s linear 0.1s;
+  
   max-width: 28ch;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -10125,7 +10129,23 @@ padding: 0.5rem 1rem;
   flex-direction: row;
   flex-wrap: wrap;
 }
+::-webkit-scrollbar {
+width:8px;
+height: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+background:#333;
 
+
+}
+::-webkit-scrollbar-thumb {
+background: #dc3545 linear-gradient(180deg, #eb3f50, #bd0b1c) 
+repeat-x !important;
+border-radius: 12px;
+
+
+}
 /* so a imagem mesmo */
 .icon-cloth img{
   height: 14rem;
