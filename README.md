@@ -9,7 +9,7 @@ banco:
 
   produto:
 
-  id_produto
+ > - id_produto
   id_usuario (o id de quem esta vendendo o produto)
   Imagem_produto (opcional)
   preço_produto
