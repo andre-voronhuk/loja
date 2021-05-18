@@ -10,14 +10,14 @@ banco:
   produto:
 
  > - id_produto
-  id_usuario (o id de quem esta vendendo o produto)
-  Imagem_produto (opcional)
-  preço_produto
-  titulo_produto
-  descrição_produto (opcional)
-  tamanho_produto (padrão: tamanho unico)
-  cor_produto
-  quantidade_produto (padrão 1)
+ > - id_usuario (o id de quem esta vendendo o produto)
+ > - Imagem_produto (opcional)
+ > - preço_produto
+ > - titulo_produto
+ > - descrição_produto (opcional)
+ > - tamanho_produto (padrão: tamanho unico)
+ > - cor_produto
+ > -  quantidade_produto (padrão 1)
   ---------------------------------------
   usuario:
   login_usuario
