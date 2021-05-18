@@ -20,14 +20,14 @@ banco:
  > -  quantidade_produto (padrão 1)
   ---------------------------------------
   usuario:
- > - login_usuario
+ > - email_usuario (sera usado para fazer o login)
  > - senha_usuario
  > - id_usuario
  > - nome_usuario
  > - saldo_usuario (inicia em R$1200 para testes)
  > - nivel_usuario (usuario/administrador)
  > - telefone_usuario
- > - email_usuario
+ 
   --------------------------------------
   vendas:
  > - id_venda
