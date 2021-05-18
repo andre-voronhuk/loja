@@ -20,31 +20,31 @@ banco:
  > -  quantidade_produto (padrão 1)
   ---------------------------------------
   usuario:
-  login_usuario
-  senha_usuario
-  id_usuario
-  nome_usuario
-  saldo_usuario (inicia em R$1200 para testes)
-  nivel_usuario (usuario/administrador)
-  telefone_usuario
-  email_usuario
+ > - login_usuario
+ > - senha_usuario
+ > - id_usuario
+ > - nome_usuario
+ > - saldo_usuario (inicia em R$1200 para testes)
+ > - nivel_usuario (usuario/administrador)
+ > - telefone_usuario
+ > - email_usuario
   --------------------------------------
   vendas:
-  id_venda
-  id_usuario
-  id_produto
-  data_hora_venda
-  quantidade_venda
-  desconto_venda (padrao 0)
-  total_venda
+ > - id_venda
+ > - id_usuario
+ > - id_produto
+ > - data_hora_venda
+ > - quantidade_venda
+ > - desconto_venda (padrao 0)
+ > - total_venda
   --------------------------------------
   carrinho:
   
-  id_carrinho
-  id_usuario
-  id_produto
-  quantidade_carrinho
-  total_carrinho
+ > - id_carrinho
+ > - id_usuario
+ > - id_produto
+ > - quantidade_carrinho
+ > - total_carrinho
   
 
 
